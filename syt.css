@@ -63,6 +63,6 @@ a {
 body {
   font-size: 1.5em;
 }
-.blocks:hover {
+a:hover {
   background-color: rgba(210,105,00,.1) !important;
 }
