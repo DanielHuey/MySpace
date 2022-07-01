@@ -15,9 +15,6 @@
   display: flex;
 }
 
-.blocks:hover {
-  background-color: rgba(210,105,00,.1) !important;
-}
 .spec {
   font-size: .75em;
   width: 75%;
@@ -65,4 +62,7 @@ a {
 }
 body {
   font-size: 1.5em;
+}
+.blocks:hover {
+  background-color: rgba(210,105,00,.1) !important;
 }
