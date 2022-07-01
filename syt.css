@@ -9,6 +9,7 @@
 }
 
 .section {
+  height: 30%;
   display: flex;
 }
 
