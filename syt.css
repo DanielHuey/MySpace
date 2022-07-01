@@ -7,6 +7,9 @@
   text-align: center;
   padding: 16.778% 0em;
 }
+.bh {
+  height: 33%;
+}
 
 .section {
   display: flex;
