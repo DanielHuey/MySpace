@@ -8,7 +8,8 @@
 }
 .blocks:hover{
   animation-name:zoom;
-  animation-duration: 0.125s;
+  animation-duration: 0.25s;
+  width: 100%;
 }
 .bh {
   height: 33%;
@@ -75,7 +76,7 @@ body {
     border-radius: 0em;
   }
   to{z-index:5;
-    width: 50%;
+    width: 100%;
     border-radius: 1em;
   }
 }
