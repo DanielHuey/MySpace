@@ -5,7 +5,10 @@
 .blocks {
   width: 33%;
   text-align: center;
-  padding: 16.778% 0em;
+}
+.blocks:hover{
+  animation-name:zoom;
+  animation-duration: 0.125s;
 }
 .bh {
   height: 33%;
@@ -58,11 +61,23 @@ a {
   color: white;
   text-shadow: 2px 2px 3px black;
   font-variant: small-caps;
+  padding: 16.778% 0em;
   
 }
 body {
   height: 100%;
   font-size: 1.5em;
+}
+@keyframes zoom
+{
+  from {z-index:1;
+    width: 33%;
+    border-radius: 0em;
+  }
+  to{z-index:5;
+    width: 50%;
+    border-radius: 1em;
+  }
 }
 a:hover {
   background-color: rgba(210,105,00,.1) !important;
